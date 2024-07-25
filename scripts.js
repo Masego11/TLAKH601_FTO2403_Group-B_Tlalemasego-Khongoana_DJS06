@@ -25,3 +25,7 @@ names.forEach((name, index) => {
   console.log(`${name} - ${provinces[index]}`); // The template literal combines the current name with the province in the same index in the province array. 
 });
 
+// 
+const upperCaseProvinces = provinces.map(province => province.toUpperCase());
+console.log(upperCaseProvinces)
+
